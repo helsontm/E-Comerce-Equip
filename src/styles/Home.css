@@ -1,0 +1,99 @@
+.row {
+    --bs-gutter-x: 0.1rem;
+}
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * .3);
+}
+.container {
+    padding: 0px;
+}
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 100%;
+}
+.home-row {
+    margin-top: 80px;
+}
+.col-product-list {
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.searcher {
+    margin: 40px 30px 40px 0px;
+    padding: 0px 60px 0px 60px;
+}
+.searcher input {
+    border: 1px solid var(--light-gray);
+    flex: 1 1;
+    font-size: .9rem;
+    padding: 5px 14px;
+}
+#IdSearch::placeholder {
+    color: rgba(128, 128, 128, 0.546);
+}
+.searcher-button {
+    background: var(--primary);
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    height: 45px;
+    line-height: 1;
+    width: 95px;
+
+   
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: var(--primary);
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: var(--primary);
+    --bs-btn-active-border-color: white;
+    --bs-btn-disabled-bg: var(--primary);
+  
+}
+.filter {
+    display: none;
+}
+.accordion-col {
+    padding: 50px 20px 20px;
+    width: 300px;
+}
+.accordion {
+    
+    --bs-accordion-border-color: white;
+    --bs-accordion-btn-focus-border-color: white;
+    --bs-accordion-btn-focus-box-shadow: white; 
+    --bs-accordion-active-bg: white;
+}
+.accordion-button {
+    align-items: center;
+    border-bottom: 2px solid var(--light-gray);
+    cursor: pointer;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    height: 40px;
+    justify-content: space-between;
+    padding: 1px;
+    width: 218px;
+    margin-bottom: 20px;
+}
+.accordion-button:not(.collapsed) {
+    color:  #55595c;
+}
+.accordion-item {
+    width: 220px;
+}
+.accordionHeader {
+    font-size: 60px;
+     color: black;
+}
+ .accordionBody {
+    font-weight: 400;
+    line-height: 0;
+  
+}
+.li-products {
+    padding: 30px;
+}
+.form-control {
+    border: 0px;
+    background-color: white;
+}

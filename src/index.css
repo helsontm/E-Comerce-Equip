@@ -1,0 +1,249 @@
+@import url(/src/styles/ProductsDetail.css);
+@import url(/src/styles/AppNav.css);
+@import url(/src/styles/Home.css);
+@import url(/src/styles/FooterLayout.css);
+@import url(/src/styles/Login.css);
+@import url(/src/styles/Sidebar.css);
+@import url(/src/styles/Filter.css);
+@import url(/src/styles/Purchases.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yantramanav', sans-serif;
+}
+:root {
+  --primary: #f85555;
+  --light-gray: #dcd9d9;
+  --gray: #c7c7c7;
+  --dark-gray: #4f4f4f;
+  --text-gray: #ababab;
+}
+
+@media (max-width: 1024px) {
+
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 100%;
+}
+/*Home*/
+.home-row {
+  width: 1024px;
+}
+.col-product-list {
+  padding-right: 0px;
+}
+/*AppNav*/
+.navigation-nav__link {
+  width: 153px;
+}
+/*ProductDetail*/
+.first-row {
+  padding-right: 40px;
+  padding-left: 20px;
+}
+.first-columns {
+  padding:  40px 40px 0px;
+}
+.nav {
+  margin-top: 90px;
+  margin-left: 50px;
+}
+/*Purchases*/
+.divContTitlePurchases {
+  padding: 0px 0px;
+}
+.divContTitlePurchases {
+  margin-left: 40px;
+}
+.nav-purchases {
+  margin-left: 70px;
+}
+
+}
+@media (max-width: 768px){
+
+.container, .container-md, .container-sm {
+    max-width: 768px;
+    padding: 0px;
+}
+
+/*Home*/
+
+.home-row {
+  max-width: 768px;
+}
+.searcher {
+  margin-bottom: 10px;
+  padding: 0px 25px;
+}
+.filter {
+  display: flex;
+  margin: 0px 30px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.accordion-col {
+  display: none;
+}
+/*AppNav*/
+
+.navigation {
+  border-bottom: none;
+  max-width: 768px;
+}
+.navigation__title {
+  font-size: 1.5rem;
+}
+.navigation-nav__link {
+  width: 115px;
+  height: 59px;
+  border-left: none; 
+}
+
+/*Filter category*/
+
+.accordion-button {
+  width: 250px;
+}
+
+/*Purchases*/
+
+.ulPurchases {
+  padding-right: 32px;
+}
+.liPurchases {
+  width: 650px;
+}
+.divContTitlePurchases {
+  margin-left: 0px;
+}
+}
+@media (max-width: 425px) {
+
+.container, .container-sm {
+    max-width: 425px;
+}
+/*Home*/
+.home-row {
+  max-width: 425px;
+}
+/*AppNav*/
+.navigation-nav__link {
+  width: 63px;
+}
+/*Footer*/
+.footer__developers {
+  gap: 50px;
+}
+.footer__developers h2  {
+  font-size: 1rem;
+}
+/*ProductDetail*/
+.gallery-mini {
+  display: none;
+}
+.nav {
+  margin-top: 75px;
+  margin-left: 25px;
+}
+.carousel {
+  padding: 0px 50px;
+}
+.first-columns {
+  padding: 10px 20px 0px
+}
+.first-row {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.view-main {
+  display: none;
+}
+.view-responsive {
+  display: flex;
+  flex-direction: column;
+}
+.second-row {
+  padding: 0px 30px 0px 30px;
+}
+.card-product {
+  padding-left: 0px;
+}
+
+/*Purchases*/
+
+.ulPurchases {
+  padding-right: 32px;
+}
+.liPurchases {
+  width: 300px;
+}
+.liPurchases {
+  width: 280px;
+}
+.nav-purchases {
+  width: 300px;
+}
+.my-purchases {
+  margin-left: 25px;
+}
+.divDatePurcheses {
+  display: none;
+}
+.conteImgPurchases {
+  width: 53px;
+  height: 60px;
+  margin-right: 20px;
+}
+.conteImgPurchases img {
+  width: 53px;
+  height: 60px;
+}
+.divTitlePurchases h6 {
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+.divPricePurchese  p {
+  font-size: 0.8rem;
+}
+}
+@media (max-width: 375px) {
+  .container, .container-sm {
+    max-width: 375px;
+}
+/*Home*/
+.home-row {
+  max-width: 375px;
+}
+
+/*Login*/
+.info-logout--adjust, .form-login__data {
+  width: 340px;
+}
+ 
+/* Purchases*/
+
+.liPurchases {
+  margin: 0px;
+}
+.nav-purchases {
+  width: 200px;
+}
+.conteImgPurchases img {
+  width: 43px;
+}
+.divTitlePurchases  {
+  width: 100px;
+}
+.quantity-purchases {
+  width: 40px;
+}
+.my-purchases {
+  margin-top: 0px;
+}
+/*Footer*/
+.footer__developers {
+  gap: 25px;
+}
+}
