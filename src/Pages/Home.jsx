@@ -28,7 +28,8 @@ const Home = ( ) => {
     const getCategories = () => {
 
         axios
-        .get("https://e-commerce-api-v2.academlo.tech/api/v1/categories")
+       // .get("https://e-commerce-api-v2.academlo.tech/api/v1/categories")
+       .get("https://ecommerce-app-ktdy.onrender.com/category")
         .then( resp => setCategories(resp?.data))
         .catch(error => console.error(error))
     }
